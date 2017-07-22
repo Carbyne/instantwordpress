@@ -1,2 +1,5 @@
-/wordpress/wp-content/
-/database/*.sql
+/wordpress/**
+!/wordpress/Dockerfile
+
+/database/**
+!/database/Dockerfile
