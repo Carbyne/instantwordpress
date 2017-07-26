@@ -34,9 +34,9 @@ phpmyadmin: localhost:8080
 To stop the docker containers run "docker-compose down" from commandline in the "instantwordpress" directory.
 The wp-content folder is mounted by the docker container, and the database is imported to the container and thereafter persistent between runs.
 These can be reset by using commands:
-    1. stop docker and delete database: docker-compose down -v
-    2. delete "wp-content" directory and replace with new copy of "wp-content-original"
-    3. start docker: docker-compose up -d
+1. stop docker and delete database: docker-compose down -v
+2. delete "wp-content" directory and replace with new copy of "wp-content-original"
+3. start docker: docker-compose up -d
 
 To export the database, use phpmyadmins export options.
 
