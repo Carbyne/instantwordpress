@@ -1,0 +1,5 @@
+/wordpress/**
+!/wordpress/Dockerfile
+
+/database/**
+!/database/Dockerfile
